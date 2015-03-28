@@ -1,0 +1,27 @@
+{
+"name": "nassim/sceditor",
+"type": "phpbb-extension",
+"description": "wysiwyg bbcode editor",
+"homepage": "n/a",
+"version": "1.0.0",
+"time": "2015-03-28",
+"license": "GPL-2.0",
+"authors": [{
+"name": "nassim redwan",
+"email": "redoin10@gmail.com",
+"homepage": "n/a",
+"role": "owner"
+}],
+"require": {
+"php": ">=5.3.3"
+},
+"require-dev": {
+"phpbb/epv": "dev-master"
+},
+"extra": {
+"display-name": "phpbb 3.1 wysiwyg bbcode editor",
+"soft-require": {
+"phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+}
+}
+}
